@@ -1,0 +1,9 @@
+language: rust
+rust:
+  - stable
+os:
+  - osx
+cache: cargo
+script:
+  - sh scripts/travis-build.sh
+
