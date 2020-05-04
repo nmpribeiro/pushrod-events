@@ -33,9 +33,6 @@ pub enum PushrodEvent {
 
     /// Mouse button: button ID, press state: true means pressed, false means released.
     MouseButton(u32, bool),
-
-    /// Scope of widget changed: old id, new id
-    WidgetScopeChanged(u32, u32),
 }
 
 /// This is an event handler that is passed into a main event loop.  Since there can be multiple
