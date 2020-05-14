@@ -179,8 +179,7 @@ pub enum PushrodEvent {
         /// 0, and hidden is `false`, it will still indicate a visibility of 0, which will mean
         /// the object cannot be interacted with.
         hidden: bool,
-    }
-
+    },
 }
 
 pub enum Event {
