@@ -182,6 +182,7 @@ pub enum PushrodEvent {
     },
 }
 
+#[derive(Debug)]
 pub enum Event {
     Pushrod(PushrodEvent),
     SDL2(sdl2::event::Event),
